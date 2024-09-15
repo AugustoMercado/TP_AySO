@@ -1,0 +1,23 @@
+ls
+cd repogitt
+ls
+cd TP_AySO/
+ls
+git status 
+git add comando_dump_net.txt 
+git status 
+git commit -m "ADD: Comando para capturar y analizar el trafico de red"
+git status 
+cat <<EOF >> README.md
+Alumno: Augusto Mercado
+División: 213
+Turno: Tarde
+
+EOF
+
+git status 
+git add README.md 
+git status 
+git commit -m "docs: actualice información en el README.md" 
+git status 
+history -a
